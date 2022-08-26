@@ -1,5 +1,6 @@
 a {
     text-decoration: none;
+    font-size: 18px;
     color: #e5e7eb;
 }
 
@@ -12,6 +13,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 25px;
 }
 
 .logo-text {
@@ -19,9 +21,53 @@ a {
     font-size: 24px;
 }
 
-.Lista{
+.list{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     gap: 20px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info-text{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero-main-text{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.btn{
+    padding: 7px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.mbml{
+    width: 400px;
+    height: auto;
 }
