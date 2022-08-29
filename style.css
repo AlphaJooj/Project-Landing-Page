@@ -32,6 +32,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-bottom: 50px;
 }
 
 .info-text {
@@ -56,6 +57,12 @@ a {
     color: #e5e7eb;
 }
 
+.mbml {
+    width: 300px;
+    height: auto;
+}
+
+
 .btn {
     padding: 8px 16px;
     color: #e5e7eb;
@@ -67,11 +74,6 @@ a {
     justify-content: center;
     width: 100px;
     height: 30px;
-}
-
-.mbml {
-    width: 400px;
-    height: auto;
 }
 
 .info-header-text {
@@ -87,6 +89,7 @@ a {
 .info-section {
     display: flex;
     justify-content: space-around; 
+    padding-bottom: 50px;
 }
 
 .item-description {
@@ -101,4 +104,24 @@ a {
     width: 150px;
     height: 150px;
     border-radius: 8px;
+}
+
+.inspiring-quote{
+    padding: 50px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: oblique;
+    color: #1f2937;
+}
+
+.quote-author{
+    color: #1f2937;
+    font-weight: bold;
 }
